@@ -1,0 +1,170 @@
+/*utilização de variável, declara dentro da raiz do documento elemento root*/
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*o limete vai ser a borda da caixa*/
+    font-family: sans-serif;
+
+    /*BASE*/
+}
+body{
+    background:var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*alina de maniera vertical*/
+    justify-content: space-between;/*horizontal*/
+    
+    
+    
+  
+}
+
+.logo{
+    color:var(--vermelho);
+    font-family: 'Arial black';
+    font-size: 40px;
+    margin:10px;
+    transition: .5s ease all;
+    cursor: pointer;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+   margin: 10px;
+   transition: .5s ease all;
+   
+}
+
+header nav a:hover{
+    color: rgb(12, 107, 231);
+
+}
+
+.logo:hover{
+    color:white;
+
+}
+
+/*FILME PRINCIPAL*/
+
+.filme-principal{
+    font-size: 14px;
+    background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) ), url('/img/capa-vikigs.jpg');
+    height:500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-bottom: 10px;
+  
+
+}
+
+.filme-principal .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color:rgba(0,0, 0,.50);
+    border:none;
+    color:white;
+
+    padding: 15px 30px;
+    margin:5px;
+    font-size: 12px;
+    
+
+    
+    cursor: pointer;
+    transition: .5s ease all;
+    
+}
+.botao:hover{
+    background: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width:60%;
+    margin-top: 60px;
+   
+    padding-right: 30px;
+}
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+/*footer*/
+footer {
+    background-color:var(--preto) 
+}
+
+  .container-center div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+padding: 10px;
+
+}
+div i{
+    margin-left: 5px;
+    transition: .5s ease all;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    width: 5%;
+    
+}
+.container-center div a:hover{
+    background-color:var(--vermelho) ;
+    
+}
+
+div h4{
+    cursor: pointer;
+    transition: .5s ease all;  
+}
+.container-center div h4:hover{
+    
+    color: var(--vermelho);
+}
+
+
+

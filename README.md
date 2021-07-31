@@ -10,5 +10,5 @@
 
   
 
-##### Principal foco foi como as características do elemento principal são herdadas e a aplicação do carrossel ao site através do jquery. ​ :happy:
+##### Principal foco foi como as características do elemento principal são herdadas e a aplicação do carrossel ao site através do jquery.
 

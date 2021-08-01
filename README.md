@@ -1,4 +1,4 @@
-#  Bem vindo ao Alvesflix! :tv:
+#  Bem-vindo ao Alvesflix! :tv:
 
 ## Requisitos que foram utilizados:
 

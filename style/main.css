@@ -61,7 +61,8 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 14px;
-    background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) ), url('/img/vikings-capa-foto.jpg');
+    background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) );
+    background-image: url("../img/vikings-capa-foto.jpg");
     height:500px;
     background-size: cover;
 

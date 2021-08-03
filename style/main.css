@@ -61,11 +61,10 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 14px;
-    background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) );
-    background-image: url("../img/vikings-capa-foto.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7) ),url("../img/vikings-capa-foto.jpg");
+    
     height:500px;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,8 +75,9 @@ header nav a:hover{
 .filme-principal .descricao{
     margin: 10px;
     margin-bottom: 30px;
-    text-align: justify;
+    
     padding-bottom: 10px;
+    color: rgb(243, 244, 245);
   
 
 }
@@ -108,8 +108,10 @@ header nav a:hover{
     color: black;
 }
 
+
+
 .botao i{
-    margin-right: 8px;
+    margin-right: 4px;
 }
 
 .container{
@@ -134,27 +136,30 @@ header nav a:hover{
 }
 /*footer*/
 footer {
-    background-color:var(--preto) 
+    background-color:rgb(49, 48, 48)
 }
 
-  .container-center div{
+.container-center div{
  display: flex;
  justify-content: center;
  align-items: center;
-padding: 10px;
+  
 
 }
-div i{
-    margin-left: 5px;
-    transition: .5s ease all;
-    padding: 10px 10px;
+footer a i{
+    
+    margin: 10px;
     cursor: pointer;
     color: white;
-    width: 5%;
+    font-size: 30px;
     
 }
-.container-center div a:hover{
+.container-center div  a:hover{
+    
     background-color:var(--vermelho) ;
+    border-radius: 8px 8px;
+    transition: .9s ease all;
+    align-items: center;
     
 }
 

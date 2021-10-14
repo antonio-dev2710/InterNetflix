@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
 
     <title>NETFLIX CLONE</title>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -29,14 +31,14 @@
     </header>
 
     <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="titulo">VIKINGS</h3>
-                <p class="descricao">Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico. </p>
-           
-<!--Os botoes ficaram lado a lodo pq ela está em uma div fora da de pai sendo uma div secundaria logo será interpretada como
+        <div class="filme-principal" id='filme-main'>
+            <div class="container" id="descricao">
+                <h3 class="titulo" id="titulo-filme">VIKINGS</h3>
+                <p class="descricao" id="texto-princial">Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro,fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que asriquezas sonhadas por seu povo encontram-se além do mar Báltico. </p>
+
+                <!--Os botoes ficaram lado a lodo pq ela está em uma div fora da de pai sendo uma div secundaria logo será interpretada como
 display block-->
-                <div class="botoes"> 
+                <div class="botoes">
                     <button role="button" class="botao">
                         <i class="far fa-play-circle"></i>
                         ASSISTIR AGORA
@@ -48,68 +50,80 @@ display block-->
                 </div>
 
             </div>
-            
+
         </div>
     </main>
-        <div class="carrosel-filmes ">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini10.jpg"  alt="" srcset="">
-                </div>
+    <div class="carrosel-filmes ">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini1.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini2.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini3.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini4.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini5.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini6.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini7.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini8.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini9.jpg" alt="Submit">
+
+            </div>
+            <div class="item">
+                <input type="image" class="imagem" src="img/mini10.jpg" alt="Submit">
+
             </div>
         </div>
+    </div>
 
-        <footer>
-            
-            <div class="container-center">
-                <div>
-                    <h4 >Antonio Alves -</h4>
-                    <a href="https://www.linkedin.com/in/antonio-alves-56b6b11a9/" target="_blank" >
+    <footer>
 
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/antonio-dev2710" target="_blank">
-                        
-                        <i class="fab fa-github-square"></i>
-                    </a>
-                </div>
-        
-             </div>
-                
+        <div class="container-center">
+            <div>
+                <h4>Antonio Alves -</h4>
+                <a href="https://www.linkedin.com/in/antonio-alves-56b6b11a9/" target="_blank">
 
-        
-        </footer>
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/antonio-dev2710" target="_blank">
+
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </div>
+
+        </div>
+
+
+
+    </footer>
     <script src="https://kit.fontawesome.com/7e82b8f437.js" crossorigin="anonymous"></script>
-    
+
     <script src="js/wol/jquery.min.js"></script>
     <script src="js/wol/owl.carousel.min.js"></script>
     <script src="js/wol/setup.js"></script>
+    <script src="js/wol/main.js"></script>
 </body>
+
 </html>

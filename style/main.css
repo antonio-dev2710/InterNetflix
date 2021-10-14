@@ -174,3 +174,18 @@ div h4{
 
 
 
+input{
+    width: 100%;
+}
+
+.filme-05{
+    font-size: 14px;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7) ),url("https://www.themoviedb.org/t/p/w500_and_h282_face/194dso1hBwQEgIU3fgS7mXHtFAj.jpg");
+    
+    height:500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
